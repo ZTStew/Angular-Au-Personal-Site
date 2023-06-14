@@ -1,11 +1,28 @@
 <!-- {{}} can contain any javascript function -->
 
 
-<div id="side_profile"></div>
+<div id="side_profile">
+  <img id="profile_picture" src="assets/static/profile_picture_head.png" alt="Zachary Stewart, Profile Picture">
 
-<p class="blue text-xl font-thin underline bg-yellow-200 m-4 p-4 rounded-full">
+  <h2 id="profile_name">{{ getProfileName() }}</h2>
+
+  <div id="profile_description">
+    <p>Personal Description Goes Here</p>
+  </div>
+
+  <div id="profile_socials">
+    <a href="{{ linkedin_url }}">
+      <img src="assets/static/linkedin_logos/linkedin_large_icon_blue.png" alt="Zachary Stewart Linkedin">
+    </a>
+    <a href="{{ github_url }}">
+      <img src="assets/static/github_logos/github_logo.png" alt="Zachary Stewart Github">
+    </a>
+  </div>
+</div>
+
+<!-- <p class="blue text-xl font-thin underline bg-yellow-200 m-4 p-4 rounded-full">
   Hello world!
-</p>
+</p> -->
 
 <!-- <p>{{ title }}</p>
 <p>{{ getProfileName() }}</p>

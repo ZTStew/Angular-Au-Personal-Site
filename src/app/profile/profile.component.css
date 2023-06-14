@@ -1,6 +1,36 @@
-* {border-style: dashed;}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 #side_profile {
   width: 20%;
-  height: 80vh;
+  @apply inline-block border-solid h-screen mx-4;
+}
+
+#profile_picture {
+  @apply rounded-full my-4
+}
+
+#profile_name {
+  @apply w-full text-center text-pink-400 border-4 border-solid border-black mb-4;
+}
+
+#profile_description {
+  @apply w-full h-3/6 mb-4;
+  @apply border-2 border-solid border-lime-500;
+}
+
+#profile_socials {
+  @apply w-full;
+  @apply border-2 border-solid border-amber-900;
+  @apply flex flex-row flex-wrap justify-evenly
+}
+
+#profile_socials a {
+  aspect-ratio : 1 / 1;
+  @apply w-1/6 mx-2 inline-block;
+}
+
+#profile_socials img {
+  @apply rounded-xl
 }

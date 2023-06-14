@@ -11,6 +11,8 @@ export class ProfileComponent {
   public values;
   // variables can be handed to the .html with this declaration
   title = 'Profile';
+  linkedin_url = 'https://www.linkedin.com/in/zachary-stewart-44b18216b'
+  github_url = 'https://github.com/ZTStew'
 
   constructor(service: LogicService) {
     // calls method from LogicService
