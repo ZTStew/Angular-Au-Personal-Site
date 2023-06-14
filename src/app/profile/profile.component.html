@@ -1,0 +1,16 @@
+<!-- {{}} can contain any javascript function -->
+
+<p>{{ title }}</p>
+<p>{{ getProfileName() }}</p>
+<div></div>
+
+<p>{{ values }}</p>
+
+<ul style="margin: 20px;">
+  <!-- Called a directive -->
+  <!-- ngFor is used to list elements -->
+  <!-- ngFor should have an * in front a directive if the directive adds or removes an element from the page making it *ngFor -->
+  <li *ngFor="let value of values">
+    {{ value }}
+  </li>
+</ul>
