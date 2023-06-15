@@ -13,6 +13,7 @@ export class ProfileComponent {
   title = 'Profile';
   linkedin_url = 'https://www.linkedin.com/in/zachary-stewart-44b18216b'
   github_url = 'https://github.com/ZTStew'
+  myspace_url = 'https://myspace.com/signin'
 
   constructor(service: LogicService) {
     // calls method from LogicService
