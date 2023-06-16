@@ -2,9 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+#side_bar {
+  @apply w-1/5 h-screen;
+  @apply inline-block border-solid;
+}
+
+#side_background {
+  @apply filter hue-rotate-90 w-full h-full z-0
+}
+
 #side_profile {
-  width: 20%;
-  @apply inline-block border-solid h-screen mx-4;
+  @apply w-full h-screen;
+  @apply inline-block border-solid;
 }
 
 #profile_picture {
@@ -12,7 +21,8 @@
 }
 
 #profile_name {
-  @apply w-full text-center text-pink-400 border-4 border-solid border-black mb-4;
+  @apply w-full text-center text-3xl text-pink-400;
+  @apply border-4 border-solid border-black mb-4;
 }
 
 #profile_description {
@@ -31,6 +41,6 @@
   @apply w-1/6 mx-2 inline-block;
 }
 
-#profile_socials img {
-  @apply rounded-xl
-}
+/* #profile_socials img { */
+  /* @apply rounded-xl */
+/* } */

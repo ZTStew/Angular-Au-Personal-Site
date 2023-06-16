@@ -1,22 +1,26 @@
 <!-- {{}} can contain any javascript function -->
 
 
-<div id="side_profile">
-  <img id="profile_picture" src="assets/static/profile_picture_head.png" alt="Zachary Stewart, Profile Picture">
+<div id="side_bar">
+  <img id="side_background" src="assets/static/backgrounds/circuit_board_brown.png">
+  <div id="side_profile">
+    <img id="profile_picture" src="assets/static/profile_picture_head.png" alt="Zachary Stewart, Profile Picture">
 
-  <h2 id="profile_name">{{ getProfileName() }}</h2>
+    <h1 id="profile_name">{{ getProfileName() }}</h1>
 
-  <div id="profile_description">
-    <p>Personal Description Goes Here</p>
-  </div>
+    <div id="profile_description" [innerHTML]="personal_description"></div>
 
-  <div id="profile_socials">
-    <a href="{{ linkedin_url }}" target="_blank" rel="noopener noreferrer">
-      <img src="assets/static/linkedin_logos/linkedin_large_icon_blue.png" alt="Zachary Stewart Linkedin">
-    </a>
-    <a href="{{ github_url }}" target="_blank" rel="noopener noreferrer">
-      <img src="assets/static/github_logos/github_logo.png" alt="Zachary Stewart Github">
-    </a>
+    <div id="profile_socials">
+      <a href="{{ linkedin_url }}" target="_blank" rel="noopener noreferrer">
+        <img src="assets/static/icons/linkedin_logo_icon.png" alt="Zachary Stewart Linkedin">
+      </a>
+      <a href="{{ github_url }}" target="_blank" rel="noopener noreferrer">
+        <img src="assets/static/icons/github_logo_icon.png" alt="Zachary Stewart Github">
+      </a>
+      <a href="{{ myspace_url }}" target="_blank" rel="noopener noreferrer">
+        <img src="assets/static/icons/myspace_logo_icon.png" alt="Zachary Stewart MySpace">
+      </a>
+    </div>
   </div>
 </div>
 

@@ -6,8 +6,10 @@
   * Contain link to social media accounts
   * Contain theming options
   * Add place to host badge rubrics (fun)
-  *
-  *
+  * Add in skills list
+  * Add interested skills list
+  * Add resume download/link
+  * ¿Section all about Aeon?
 
 
 ## Badges:
@@ -39,7 +41,7 @@
     https://c0ebl235.caspio.com/dp/fe7f200010e4266d726b42c5ae35?BadgeID=26
   * Demonstrates the importance of sourcing content with proper citations.
   * Responds positively and respectfully while providing a meaningful addition to the discussion.
-  * ¿Enagagment and participation in blogging community?
+  * ¿Engagement and participation in blogging community?
   * Postings are made to stimulate dialogue and commentary.
   * Selects and inserts graphics and multimedia that are mostly high quality and serve to enhance and clarify the content.
   * Includes hyperlinks to resources that are relevant to the topic.
@@ -93,3 +95,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+---
+
+### Resources:
+  [Social Icons](https://www.flaticon.com/packs/social-16)
+  [Backpack Icon](https://www.flaticon.com/free-icon/backpack_10330619?term=backpack&page=1&position=18&origin=search&related_id=10330619)
+
